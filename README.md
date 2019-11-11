@@ -10,4 +10,4 @@ This is my home pages, where I post all of my hobby project, design and code wor
  PS: The pages is written in Norwegian 
 
 
-![redis-logo](https://www.sktech.no/index.html)
+![redis-logo](https://user-images.githubusercontent.com/32140076/68584255-59130d80-047f-11ea-96d6-7b0b948d2ac4.png)
