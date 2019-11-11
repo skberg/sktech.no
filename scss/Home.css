@@ -1,0 +1,442 @@
+body {
+  background-color: var(--background-color);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+/*sidebar*/
+.topnav {
+  overflow: hidden;
+  text-align: center;
+}
+
+.topnav a {
+  float: none;
+  display: inline-block;
+  color: #808080;
+  text-align: left;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.topnav a:hover {
+  color: var(--navColor);
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--underLin);
+          text-decoration-color: var(--underLin);
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.containers {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1 {
+  width: 35px;
+  height: 5px;
+  background-color: var(--navColor);
+  margin: 6px 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.bar2 {
+  width: 35px;
+  height: 5px;
+  background-color: var(--underLin);
+  margin: 6px 0px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: var(--navColor);
+  margin: 6px 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+  background-color: var(--underLin);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/*-----------------------*/
+/*hoved tekst elementer */
+/*-------------------------*/
+.ch {
+  text-align: center;
+  font-family: 'Raleway';
+}
+
+.P {
+  max-width: 600px;
+  padding: 15px;
+  margin: auto;
+}
+
+.MVH {
+  text-align: center;
+  margin: auto;
+  width: 65%;
+  border-bottom: 0.2px var(--underLin) solid;
+}
+
+.tex {
+  background-color: var(--HolderColor);
+  margin: auto;
+  color: var(--color);
+  max-width: 1500px;
+  font-size: 20px;
+  padding: 10px;
+  min-width: 200px;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 15px;
+}
+
+/***********************************************/
+/*------------------------------------*/
+/*intruduksjon*/
+.rollover {
+  margin: 25px auto;
+  display: block;
+  min-width: 110px;
+  min-height: 400px;
+  background: var(--bi) no-repeat;
+  background-position: center;
+}
+
+/*------------------------------------*/
+/*Hoved elementer Tekst */
+.te1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2 / span 2;
+  background-color: var(--CardBG);
+  grid-gap: 25px;
+  color: var(--color);
+  margin: 25px auto;
+  margin-top: -90px;
+  padding: 20px;
+  max-height: 400px;
+  max-width: 350px;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+}
+
+.te2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-column: 4 / span 2;
+  background-color: var(--CardBG);
+  grid-gap: 25px;
+  color: var(--color);
+  margin: 25px auto;
+  margin-top: -90px;
+  padding: 20px;
+  max-height: 400px;
+  max-width: 350px;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.te3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / span 2;
+  background-color: var(--CardBG);
+  margin: auto;
+  margin-top: -90px;
+  color: var(--color);
+  border-radius: 10px;
+  padding: 20px;
+  max-height: 300px;
+  min-height: 200px;
+  max-width: 350px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.heding {
+  color: #f3f3f3;
+  text-transform: uppercase;
+  border-bottom: var(--underLin) 1px solid;
+  width: 50%;
+  font-family: 'Raleway', sans-serif;
+  font-size: bold;
+}
+
+.style {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  max-width: 1400px;
+  margin: auto;
+}
+
+.poligon1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2 / span 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  grid-gap: 25px;
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  height: 450px;
+  max-width: 400px;
+  background-color: var(--HolderColor);
+  border-radius: 15px 15px 0px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.poligon1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -85px;
+  max-width: 100px;
+  min-width: 175px;
+  min-height: 577px;
+}
+
+.poligon2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-column: 4 / span 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  grid-gap: 25px;
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  height: 450px;
+  max-width: 400px;
+  background-color: var(--HolderColor);
+  border-radius: 15px 15px 0px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.poligon2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -85px;
+  max-width: 100px;
+  min-width: 175px;
+  min-height: 577px;
+}
+
+.poligon3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / span 2;
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  height: 450px;
+  max-width: 400px;
+  background-color: var(--HolderColor);
+  border-radius: 15px 15px 0px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.poligon3 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -85px;
+  max-width: 100px;
+  min-width: 175px;
+  min-height: 577px;
+}
+
+/*------------------------------------------*/
+/*knapp*/
+.myButton {
+  background-color: var(--ButtonUnHover);
+  margin: 10px auto;
+  text-align: center;
+  display: block;
+  border-radius: 12px;
+  width: 80%;
+  cursor: pointer;
+  color: #f3f3f3;
+  font-size: 13px;
+  font-weight: initial;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  color: #f3f3f3;
+  text-decoration: none;
+  background-color: #4A4848;
+}
+
+/*------------------------------------------*/
+.footerName {
+  text-align: center;
+  color: var(--navColor);
+  font-family: 'Raleway', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+/*-------------------------------------*/
+.footer {
+  background: transparent;
+  height: auto;
+  padding-bottom: 30px;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: 400px;
+  background-image: url(../bilder/png/redis-logo-bunn.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/*-------------------------------------*/
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .poligon1 {
+    margin-top: 50px;
+    min-height: 150px !important;
+  }
+  .poligon1 img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -125px;
+  }
+  .poligon2 {
+    margin-top: 50px;
+    min-height: 150px !important;
+  }
+  .poligon2 img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -125px;
+  }
+  .poligon3 {
+    margin-top: 50px;
+    min-height: 150px !important;
+  }
+  .poligon3 img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -125px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav .active {
+    text-align: left !important;
+    display: none;
+  }
+  .style {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .style {
+    display: block;
+  }
+  .poligon1, .poligon2, .poligon3 {
+    max-width: 200px;
+    max-height: 577px;
+    min-width: 300px;
+    min-height: 577px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .poligon1 {
+    margin-top: 50px;
+    min-height: 150px !important;
+  }
+  .poligon1 img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -125px;
+  }
+  .poligon2 {
+    margin-top: 50px;
+    min-height: 150px !important;
+  }
+  .poligon2 img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -125px;
+  }
+  .poligon3 {
+    margin-top: 50px;
+    min-height: 150px !important;
+  }
+  .poligon3 img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -125px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

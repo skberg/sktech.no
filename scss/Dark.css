@@ -1,0 +1,13 @@
+:root {
+  --color: #cdcbcb;
+  --bi: url(../bilder/svg/redislogo2.svg);
+  --b2: url(../bilder/svg/redislogo2.svg);
+  --navColor: #808080;
+  --background-color: #343435;
+  --HolderColor:#3b3a3a;
+  --underLin: #7795B0;
+  --underLinTo: #f25626a2;
+  --ButtonUnHover: #5c5858;
+  --CardBG:#4d4a4a;
+}
+/*# sourceMappingURL=Dark.css.map */
